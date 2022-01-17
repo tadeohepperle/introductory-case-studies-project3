@@ -1,0 +1,21 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{}%
+\contentsline {section}{\numberline {2}Problem statement}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Description of the dataset}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Objectives of the report}{4}{}%
+\contentsline {section}{\numberline {3}Statistical Methods}{4}{}%
+\contentsline {subsection}{\numberline {3.1}classical linear regression}{5}{}%
+\contentsline {subsection}{\numberline {3.2}dummy coding of categorical variables}{8}{}%
+\contentsline {subsection}{\numberline {3.3}model diagnostics}{8}{}%
+\contentsline {subsection}{\numberline {3.4}best subset selection}{8}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}adjusted $R^2$}{9}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Akaike information criterion (AIC)}{9}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}Bayesian information criterion (BIC)}{10}{}%
+\contentsline {subsection}{\numberline {3.5}inference and linear models}{10}{}%
+\contentsline {section}{\numberline {4}Results}{11}{}%
+\contentsline {subsection}{\numberline {4.1}Data Transformation}{11}{}%
+\contentsline {subsection}{\numberline {4.2}Descriptive Statistics}{11}{}%
+\contentsline {subsection}{\numberline {4.3}Determining the dependent variable}{11}{}%
+\contentsline {section}{\numberline {5}Summary}{11}{}%
+\contentsline {section}{Bibliography}{12}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

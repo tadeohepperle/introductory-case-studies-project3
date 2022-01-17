@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Warning--to sort, need author or key in Exchangeandmart
+Warning--to sort, need author or key in Understa39
+Warning--empty year in Exchangeandmart
+Warning--empty year in Understa39
+Warning--empty year in 10Assump62
+You've used 5 entries,
+            2773 wiz_defined-function locations,
+            616 strings with 5621 characters,
+and the built_in function-call counts, 1803 in all, are:
+= -- 153
+> -- 88
+< -- 2
++ -- 32
+- -- 27
+* -- 128
+:= -- 254
+add.period$ -- 17
+call.type$ -- 5
+change.case$ -- 23
+chr.to.int$ -- 5
+cite$ -- 17
+duplicate$ -- 91
+empty$ -- 177
+format.name$ -- 30
+if$ -- 390
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 3
+newline$ -- 34
+num.names$ -- 12
+pop$ -- 84
+preamble$ -- 1
+purify$ -- 19
+quote$ -- 0
+skip$ -- 58
+stack$ -- 0
+substring$ -- 12
+swap$ -- 6
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 50
+warning$ -- 5
+while$ -- 9
+width$ -- 0
+write$ -- 68
+(There were 5 warnings)

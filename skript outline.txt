@@ -1,0 +1,68 @@
+
+
+
+# 1 Introduction
+
+
+
+# 2 Problem Statement
+
+## 2.1 description of dataset
+
+## 2.2 descriptive of objectives of the report:
+
+3. statistical methods
+
+3.1 Simple linear regression
+
+- assumptions:
+
+- b0 and b1, correlation
+- how to interpret b0
+- how to interpret b1
+- interpret log variables as regressors.
+- R² value
+
+3.2 Multiple linear regression
+
+
+3.3 Best Subset Selection
+
+- basic idea:
+
+3.3.1 Akaike Information Criterion (AIC)
+- formula, when to use
+
+3.3.2 Bayesian Information Criterion (BIC)
+- formula, when to use
+
+3.4 significance tests / confidence intervals for model coefficients
+
+
+3.5 goodness of fit???
+
+# 4 Results
+
+## descriptives (with price normal and log) and age
+
+## remove outliers:
+- cooks distance
+
+## linear regression
+
+## compare models logprice and no logprice
+
+good source: http://www.sthda.com/english/articles/39-regression-model-diagnostics/161-linear-regression-assumptions-and-diagnostics-in-r-essentials/
+
+- compare R² of total models ==> logprice: 0.832, price: 0.805
+- plot both models and show residuals.
+- diagnostic plots: QQ Plots
+
+
+explain null hypothesis for all tests.
+
+
+
+
+
+# 2.2 Objectives of the project

@@ -1,0 +1,38 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Exc()]{Exchangeandmart}
+Exchange \& mart: New \& used cars for sale near you.
+\newblock \url{https://www.exchangeandmart.co.uk/}.
+\newblock (Accessed on 01/16/2022).
+
+\bibitem[Und()]{Understa39}
+Understanding diagnostic plots for linear regression analysis | university of
+  virginia library research data services + sciences.
+\newblock \url{https://data.library.virginia.edu/diagnostic-plots/}.
+\newblock (Accessed on 01/16/2022).
+
+\bibitem[Fahrmeir et~al.(2013)Fahrmeir, Kneib, Lang, and
+  Marx]{fahrmeir2013regression}
+Ludwig Fahrmeir, Thomas Kneib, Stefan Lang, and Brian Marx.
+\newblock Regression models.
+\newblock In \emph{Regression}. Springer, 2013.
+
+\bibitem[James et~al.(2013)James, Witten, Hastie, and
+  Tibshirani]{james2013introduction}
+Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani.
+\newblock \emph{An introduction to statistical learning}, volume 112.
+\newblock Springer, 2013.
+
+\bibitem[Prabhakaran()]{10Assump62}
+Selva Prabhakaran.
+\newblock 10 assumptions of linear regression - full list with examples and
+  code.
+\newblock \url{http://r-statistics.co/Assumptions-of-Linear-Regression.html}.
+\newblock (Accessed on 01/16/2022).
+
+\end{thebibliography}
