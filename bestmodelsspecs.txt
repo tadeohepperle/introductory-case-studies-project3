@@ -1,0 +1,536 @@
+model 1 BIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.687
+Model:                            OLS   Adj. R-squared:                  0.686
+Method:                 Least Squares   F-statistic:                     477.3
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.96e-110
+Time:                        18:07:55   Log-Likelihood:                -103.73
+No. Observations:                 438   AIC:                             213.5
+Df Residuals:                     435   BIC:                             225.7
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.6104      0.024    107.649      0.000       2.563       2.658
+model_TRoc     0.5083      0.037     13.919      0.000       0.436       0.580
+model_Up      -0.6305      0.035    -18.056      0.000      -0.699      -0.562
+==============================================================================
+Omnibus:                       14.115   Durbin-Watson:                   1.948
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               26.375
+Skew:                          -0.151   Prob(JB):                     1.87e-06
+Kurtosis:                       4.163   Cond. No.                         3.59
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+model 1 AIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.687
+Model:                            OLS   Adj. R-squared:                  0.686
+Method:                 Least Squares   F-statistic:                     477.3
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.96e-110
+Time:                        18:07:55   Log-Likelihood:                -103.73
+No. Observations:                 438   AIC:                             213.5
+Df Residuals:                     435   BIC:                             225.7
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.6104      0.024    107.649      0.000       2.563       2.658
+model_TRoc     0.5083      0.037     13.919      0.000       0.436       0.580
+model_Up      -0.6305      0.035    -18.056      0.000      -0.699      -0.562
+==============================================================================
+Omnibus:                       14.115   Durbin-Watson:                   1.948
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               26.375
+Skew:                          -0.151   Prob(JB):                     1.87e-06
+Kurtosis:                       4.163   Cond. No.                         3.59
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+model 2 BIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.883
+Model:                            OLS   Adj. R-squared:                  0.882
+Method:                 Least Squares   F-statistic:                     1091.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.22e-201
+Time:                        18:07:55   Log-Likelihood:                 111.57
+No. Observations:                 438   AIC:                            -215.1
+Df Residuals:                     434   BIC:                            -198.8
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.2580      0.028    115.319      0.000       3.202       3.314
+age           -0.1475      0.005    -26.944      0.000      -0.158      -0.137
+model_TRoc     0.1765      0.026      6.915      0.000       0.126       0.227
+model_Up      -0.6095      0.021    -28.488      0.000      -0.652      -0.567
+==============================================================================
+Omnibus:                        3.898   Durbin-Watson:                   2.097
+Prob(Omnibus):                  0.142   Jarque-Bera (JB):                3.666
+Skew:                           0.192   Prob(JB):                        0.160
+Kurtosis:                       3.232   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+model 2 AIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.883
+Model:                            OLS   Adj. R-squared:                  0.882
+Method:                 Least Squares   F-statistic:                     1091.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.22e-201
+Time:                        18:07:55   Log-Likelihood:                 111.57
+No. Observations:                 438   AIC:                            -215.1
+Df Residuals:                     434   BIC:                            -198.8
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.2580      0.028    115.319      0.000       3.202       3.314
+age           -0.1475      0.005    -26.944      0.000      -0.158      -0.137
+model_TRoc     0.1765      0.026      6.915      0.000       0.126       0.227
+model_Up      -0.6095      0.021    -28.488      0.000      -0.652      -0.567
+==============================================================================
+Omnibus:                        3.898   Durbin-Watson:                   2.097
+Prob(Omnibus):                  0.142   Jarque-Bera (JB):                3.666
+Skew:                           0.192   Prob(JB):                        0.160
+Kurtosis:                       3.232   Cond. No.                         17.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+model 3 BIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.926
+Model:                            OLS   Adj. R-squared:                  0.925
+Method:                 Least Squares   F-statistic:                     1354.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          3.27e-243
+Time:                        18:07:55   Log-Likelihood:                 212.07
+No. Observations:                 438   AIC:                            -414.1
+Df Residuals:                     433   BIC:                            -393.7
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.3117      0.023    145.642      0.000       3.267       3.356
+age           -0.0958      0.005    -17.629      0.000      -0.107      -0.085
+mileage       -0.0068      0.000    -15.879      0.000      -0.008      -0.006
+model_TRoc     0.0686      0.021      3.201      0.001       0.026       0.111
+model_Up      -0.7507      0.019    -39.078      0.000      -0.788      -0.713
+==============================================================================
+Omnibus:                       19.846   Durbin-Watson:                   2.043
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.364
+Skew:                           0.505   Prob(JB):                     2.30e-05
+Kurtosis:                       3.390   Cond. No.                         153.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+model 3 AIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.926
+Model:                            OLS   Adj. R-squared:                  0.925
+Method:                 Least Squares   F-statistic:                     1354.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          3.27e-243
+Time:                        18:07:55   Log-Likelihood:                 212.07
+No. Observations:                 438   AIC:                            -414.1
+Df Residuals:                     433   BIC:                            -393.7
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.3117      0.023    145.642      0.000       3.267       3.356
+age           -0.0958      0.005    -17.629      0.000      -0.107      -0.085
+mileage       -0.0068      0.000    -15.879      0.000      -0.008      -0.006
+model_TRoc     0.0686      0.021      3.201      0.001       0.026       0.111
+model_Up      -0.7507      0.019    -39.078      0.000      -0.788      -0.713
+==============================================================================
+Omnibus:                       19.846   Durbin-Watson:                   2.043
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.364
+Skew:                           0.505   Prob(JB):                     2.30e-05
+Kurtosis:                       3.390   Cond. No.                         153.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+model 4 BIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.948
+Model:                            OLS   Adj. R-squared:                  0.947
+Method:                 Least Squares   F-statistic:                     1308.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          5.54e-273
+Time:                        18:07:55   Log-Likelihood:                 289.11
+No. Observations:                 438   AIC:                            -564.2
+Df Residuals:                     431   BIC:                            -535.6
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  3.1581      0.022    141.618      0.000       3.114       3.202
+age                       -0.0906      0.005    -19.753      0.000      -0.100      -0.082
+mileage                   -0.0059      0.000    -16.346      0.000      -0.007      -0.005
+model_TRoc                 0.1287      0.019      6.918      0.000       0.092       0.165
+model_Up                  -0.6386      0.018    -35.129      0.000      -0.674      -0.603
+transmission_Automatic     0.2127      0.020     10.467      0.000       0.173       0.253
+transmission_SemiAuto      0.2133      0.019     11.185      0.000       0.176       0.251
+==============================================================================
+Omnibus:                        4.275   Durbin-Watson:                   1.915
+Prob(Omnibus):                  0.118   Jarque-Bera (JB):                4.311
+Skew:                           0.241   Prob(JB):                        0.116
+Kurtosis:                       2.935   Cond. No.                         192.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+model 4 AIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.948
+Model:                            OLS   Adj. R-squared:                  0.947
+Method:                 Least Squares   F-statistic:                     1308.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          5.54e-273
+Time:                        18:07:55   Log-Likelihood:                 289.11
+No. Observations:                 438   AIC:                            -564.2
+Df Residuals:                     431   BIC:                            -535.6
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  3.1581      0.022    141.618      0.000       3.114       3.202
+age                       -0.0906      0.005    -19.753      0.000      -0.100      -0.082
+mileage                   -0.0059      0.000    -16.346      0.000      -0.007      -0.005
+model_TRoc                 0.1287      0.019      6.918      0.000       0.092       0.165
+model_Up                  -0.6386      0.018    -35.129      0.000      -0.674      -0.603
+transmission_Automatic     0.2127      0.020     10.467      0.000       0.173       0.253
+transmission_SemiAuto      0.2133      0.019     11.185      0.000       0.176       0.251
+==============================================================================
+Omnibus:                        4.275   Durbin-Watson:                   1.915
+Prob(Omnibus):                  0.118   Jarque-Bera (JB):                4.311
+Skew:                           0.241   Prob(JB):                        0.116
+Kurtosis:                       2.935   Cond. No.                         192.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+model 5 BIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.958
+Model:                            OLS   Adj. R-squared:                  0.957
+Method:                 Least Squares   F-statistic:                     1386.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.73e-290
+Time:                        18:07:55   Log-Likelihood:                 333.89
+No. Observations:                 438   AIC:                            -651.8
+Df Residuals:                     430   BIC:                            -619.1
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept           2.4927      0.057     43.453      0.000       2.380       2.605
+age                -0.0903      0.004    -21.770      0.000      -0.098      -0.082
+engineSize          0.3887      0.028     13.896      0.000       0.334       0.444
+fuelType_Petrol     0.1673      0.020      8.357      0.000       0.128       0.207
+fuelType_Hybrid     0.5755      0.036     15.776      0.000       0.504       0.647
+mileage            -0.0062      0.000    -18.694      0.000      -0.007      -0.006
+model_TRoc          0.1311      0.019      6.984      0.000       0.094       0.168
+model_Up           -0.5260      0.026    -20.411      0.000      -0.577      -0.475
+==============================================================================
+Omnibus:                       12.556   Durbin-Watson:                   1.942
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               24.988
+Skew:                           0.033   Prob(JB):                     3.75e-06
+Kurtosis:                       4.168   Cond. No.                         451.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+model 5 AIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.958
+Model:                            OLS   Adj. R-squared:                  0.957
+Method:                 Least Squares   F-statistic:                     1386.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.73e-290
+Time:                        18:07:55   Log-Likelihood:                 333.89
+No. Observations:                 438   AIC:                            -651.8
+Df Residuals:                     430   BIC:                            -619.1
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept           2.4927      0.057     43.453      0.000       2.380       2.605
+age                -0.0903      0.004    -21.770      0.000      -0.098      -0.082
+engineSize          0.3887      0.028     13.896      0.000       0.334       0.444
+fuelType_Petrol     0.1673      0.020      8.357      0.000       0.128       0.207
+fuelType_Hybrid     0.5755      0.036     15.776      0.000       0.504       0.647
+mileage            -0.0062      0.000    -18.694      0.000      -0.007      -0.006
+model_TRoc          0.1311      0.019      6.984      0.000       0.094       0.168
+model_Up           -0.5260      0.026    -20.411      0.000      -0.577      -0.475
+==============================================================================
+Omnibus:                       12.556   Durbin-Watson:                   1.942
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               24.988
+Skew:                           0.033   Prob(JB):                     3.75e-06
+Kurtosis:                       4.168   Cond. No.                         451.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+model 6 BIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.963
+Model:                            OLS   Adj. R-squared:                  0.962
+Method:                 Least Squares   F-statistic:                     1233.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          9.62e-300
+Time:                        18:07:55   Log-Likelihood:                 363.12
+No. Observations:                 438   AIC:                            -706.2
+Df Residuals:                     428   BIC:                            -665.4
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  2.6160      0.056     46.601      0.000       2.506       2.726
+age                       -0.0884      0.004    -22.697      0.000      -0.096      -0.081
+engineSize                 0.2865      0.029      9.774      0.000       0.229       0.344
+fuelType_Petrol            0.1227      0.020      6.246      0.000       0.084       0.161
+fuelType_Hybrid            0.4623      0.037     12.430      0.000       0.389       0.535
+mileage                   -0.0058      0.000    -18.704      0.000      -0.006      -0.005
+model_TRoc                 0.1534      0.018      8.594      0.000       0.118       0.188
+model_Up                  -0.5180      0.024    -21.414      0.000      -0.566      -0.470
+transmission_Automatic     0.1221      0.019      6.473      0.000       0.085       0.159
+transmission_SemiAuto      0.1180      0.018      6.639      0.000       0.083       0.153
+==============================================================================
+Omnibus:                        8.438   Durbin-Watson:                   1.863
+Prob(Omnibus):                  0.015   Jarque-Bera (JB):               13.480
+Skew:                           0.061   Prob(JB):                      0.00118
+Kurtosis:                       3.851   Cond. No.                         483.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+model 6 AIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.963
+Model:                            OLS   Adj. R-squared:                  0.962
+Method:                 Least Squares   F-statistic:                     1233.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          9.62e-300
+Time:                        18:07:55   Log-Likelihood:                 363.12
+No. Observations:                 438   AIC:                            -706.2
+Df Residuals:                     428   BIC:                            -665.4
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  2.6160      0.056     46.601      0.000       2.506       2.726
+age                       -0.0884      0.004    -22.697      0.000      -0.096      -0.081
+engineSize                 0.2865      0.029      9.774      0.000       0.229       0.344
+fuelType_Petrol            0.1227      0.020      6.246      0.000       0.084       0.161
+fuelType_Hybrid            0.4623      0.037     12.430      0.000       0.389       0.535
+mileage                   -0.0058      0.000    -18.704      0.000      -0.006      -0.005
+model_TRoc                 0.1534      0.018      8.594      0.000       0.118       0.188
+model_Up                  -0.5180      0.024    -21.414      0.000      -0.566      -0.470
+transmission_Automatic     0.1221      0.019      6.473      0.000       0.085       0.159
+transmission_SemiAuto      0.1180      0.018      6.639      0.000       0.083       0.153
+==============================================================================
+Omnibus:                        8.438   Durbin-Watson:                   1.863
+Prob(Omnibus):                  0.015   Jarque-Bera (JB):               13.480
+Skew:                           0.061   Prob(JB):                      0.00118
+Kurtosis:                       3.851   Cond. No.                         483.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+model 7 BIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.963
+Model:                            OLS   Adj. R-squared:                  0.962
+Method:                 Least Squares   F-statistic:                     1113.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.21e-298
+Time:                        18:07:55   Log-Likelihood:                 364.20
+No. Observations:                 438   AIC:                            -706.4
+Df Residuals:                     427   BIC:                            -661.5
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  2.5873      0.059     43.530      0.000       2.470       2.704
+age                       -0.0875      0.004    -22.174      0.000      -0.095      -0.080
+engineSize                 0.2690      0.032      8.492      0.000       0.207       0.331
+fuelType_Petrol            0.1032      0.024      4.345      0.000       0.057       0.150
+fuelType_Hybrid            0.4716      0.038     12.514      0.000       0.397       0.546
+lp100                      0.0121      0.008      1.454      0.147      -0.004       0.029
+mileage                   -0.0057      0.000    -18.064      0.000      -0.006      -0.005
+model_TRoc                 0.1461      0.019      7.888      0.000       0.110       0.182
+model_Up                  -0.5144      0.024    -21.183      0.000      -0.562      -0.467
+transmission_Automatic     0.1149      0.019      5.902      0.000       0.077       0.153
+transmission_SemiAuto      0.1149      0.018      6.428      0.000       0.080       0.150
+==============================================================================
+Omnibus:                       11.286   Durbin-Watson:                   1.857
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               21.337
+Skew:                          -0.013   Prob(JB):                     2.33e-05
+Kurtosis:                       4.081   Cond. No.                         493.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+model 7 AIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.963
+Model:                            OLS   Adj. R-squared:                  0.962
+Method:                 Least Squares   F-statistic:                     1113.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.21e-298
+Time:                        18:07:55   Log-Likelihood:                 364.20
+No. Observations:                 438   AIC:                            -706.4
+Df Residuals:                     427   BIC:                            -661.5
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  2.5873      0.059     43.530      0.000       2.470       2.704
+age                       -0.0875      0.004    -22.174      0.000      -0.095      -0.080
+engineSize                 0.2690      0.032      8.492      0.000       0.207       0.331
+fuelType_Petrol            0.1032      0.024      4.345      0.000       0.057       0.150
+fuelType_Hybrid            0.4716      0.038     12.514      0.000       0.397       0.546
+lp100                      0.0121      0.008      1.454      0.147      -0.004       0.029
+mileage                   -0.0057      0.000    -18.064      0.000      -0.006      -0.005
+model_TRoc                 0.1461      0.019      7.888      0.000       0.110       0.182
+model_Up                  -0.5144      0.024    -21.183      0.000      -0.562      -0.467
+transmission_Automatic     0.1149      0.019      5.902      0.000       0.077       0.153
+transmission_SemiAuto      0.1149      0.018      6.428      0.000       0.080       0.150
+==============================================================================
+Omnibus:                       11.286   Durbin-Watson:                   1.857
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               21.337
+Skew:                          -0.013   Prob(JB):                     2.33e-05
+Kurtosis:                       4.081   Cond. No.                         493.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
+model 8 BIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.963
+Model:                            OLS   Adj. R-squared:                  0.962
+Method:                 Least Squares   F-statistic:                     1014.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.61e-297
+Time:                        18:07:55   Log-Likelihood:                 365.18
+No. Observations:                 438   AIC:                            -706.4
+Df Residuals:                     426   BIC:                            -657.4
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  2.6147      0.063     41.748      0.000       2.492       2.738
+age                       -0.0900      0.004    -20.702      0.000      -0.099      -0.081
+engineSize                 0.2678      0.032      8.462      0.000       0.206       0.330
+fuelType_Petrol            0.1049      0.024      4.414      0.000       0.058       0.152
+fuelType_Hybrid            0.4727      0.038     12.554      0.000       0.399       0.547
+lp100                      0.0130      0.008      1.551      0.122      -0.003       0.029
+mileage                   -0.0058      0.000    -17.910      0.000      -0.006      -0.005
+model_TRoc                 0.1462      0.019      7.900      0.000       0.110       0.183
+model_Up                  -0.5196      0.025    -21.166      0.000      -0.568      -0.471
+tax                       -0.0002      0.000     -1.376      0.169      -0.000    7.61e-05
+transmission_Automatic     0.1152      0.019      5.924      0.000       0.077       0.153
+transmission_SemiAuto      0.1155      0.018      6.465      0.000       0.080       0.151
+==============================================================================
+Omnibus:                        7.498   Durbin-Watson:                   1.861
+Prob(Omnibus):                  0.024   Jarque-Bera (JB):               11.382
+Skew:                           0.058   Prob(JB):                      0.00338
+Kurtosis:                       3.781   Cond. No.                     1.64e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.64e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+model 8 AIC
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               logprice   R-squared:                       0.963
+Model:                            OLS   Adj. R-squared:                  0.962
+Method:                 Least Squares   F-statistic:                     1014.
+Date:                Mon, 17 Jan 2022   Prob (F-statistic):          1.61e-297
+Time:                        18:07:55   Log-Likelihood:                 365.18
+No. Observations:                 438   AIC:                            -706.4
+Df Residuals:                     426   BIC:                            -657.4
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  2.6147      0.063     41.748      0.000       2.492       2.738
+age                       -0.0900      0.004    -20.702      0.000      -0.099      -0.081
+engineSize                 0.2678      0.032      8.462      0.000       0.206       0.330
+fuelType_Petrol            0.1049      0.024      4.414      0.000       0.058       0.152
+fuelType_Hybrid            0.4727      0.038     12.554      0.000       0.399       0.547
+lp100                      0.0130      0.008      1.551      0.122      -0.003       0.029
+mileage                   -0.0058      0.000    -17.910      0.000      -0.006      -0.005
+model_TRoc                 0.1462      0.019      7.900      0.000       0.110       0.183
+model_Up                  -0.5196      0.025    -21.166      0.000      -0.568      -0.471
+tax                       -0.0002      0.000     -1.376      0.169      -0.000    7.61e-05
+transmission_Automatic     0.1152      0.019      5.924      0.000       0.077       0.153
+transmission_SemiAuto      0.1155      0.018      6.465      0.000       0.080       0.151
+==============================================================================
+Omnibus:                        7.498   Durbin-Watson:                   1.861
+Prob(Omnibus):                  0.024   Jarque-Bera (JB):               11.382
+Skew:                           0.058   Prob(JB):                      0.00338
+Kurtosis:                       3.781   Cond. No.                     1.64e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.64e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

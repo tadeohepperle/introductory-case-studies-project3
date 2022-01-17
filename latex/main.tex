@@ -228,7 +228,7 @@ Table \ref{tab:descriptives} provides a Five-number summary, mean and standard d
   \end{tabular}
 \end{table}
 
-In addidtion to that we have 3 categorical variables with 3 levels each: model, fuel consumption and transmission. Of the 438 cars in total, there were 161 Passat, 127 T-Roc and 150 Up. The majority of cars had manual transmission (320), 66 cars had Semi-Auto and 52 automatic transmission. Most Cars used Petrol (256) or Diesel (169) with just 13 Hybrid cars that all where from the model Passat and had either automatic (4) or Semi-Auto transmission (9). The 150 Up models all had just manual transmission and ran on Petrol.
+In addition to that we have 3 categorical variables with 3 levels each: model, fuel consumption and transmission. Of the 438 cars in total, there were 161 Passat, 127 T-Roc and 150 Up. The majority of cars had manual transmission (320), 66 cars had Semi-Auto and 52 automatic transmission. Most Cars used Petrol (256) or Diesel (169) with just 13 Hybrid cars that all where from the model Passat and had either automatic (4) or Semi-Auto transmission (9). The 150 Up models all had just manual transmission and ran on Petrol.
 
 \subsection{Determining the dependent variable}
 
@@ -238,37 +238,113 @@ Two full linear regression models with all 8 predictor variables (age, mileage, 
 \begin{figure}[htb]
   \centering
 
-  \begin{subfigure}[b]{0.33\textwidth}
+  \begin{subfigure}[b]{0.32\textwidth}
     \centering
     \includegraphics[width=\textwidth]{./images/qqplot_resz_price.png}
-    \caption{residual z-scores and N(0,1)}
     \label{fig:qqplotreszprice}
   \end{subfigure}
-  \begin{subfigure}[b]{0.33\textwidth}
+  \begin{subfigure}[b]{0.32\textwidth}
     \centering
     \includegraphics[width=\textwidth]{./images/qqplot_yyhat_price.png}
-    \caption{price and predicted price}
     \label{fig:qqplotyyhatprice}
   \end{subfigure}
-  \begin{subfigure}[b]{0.33\textwidth}
+  \begin{subfigure}[b]{0.32\textwidth}
     \centering
     \includegraphics[width=\textwidth]{./images/scalelocationplot_price.png}
-    \caption{predicted price and standardized residuals}
     \label{fig:scalelocationplotprice}
   \end{subfigure}
 
+  \begin{subfigure}[b]{0.32\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{./images/qqplot_resz_logprice.png}
+    \label{fig:qqplotreszlogprice}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.32\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{./images/qqplot_yyhat_logprice.png}
+    \label{fig:qqplotyyhatlogprice}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.32\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{./images/scalelocationplot_logprice.png}
+    \label{fig:scalelocationplotlogprice}
+  \end{subfigure}
+  \caption{q-q-plots comparing quantiles of standardized residuals with standard normal distribution and predicted values with real values, scale-location-plots for relationship between predicted value and standardized residuals.}
+  \label{fig:pricevslogprice}
+\end{figure}
+
+As Figure~\ref{fig:pricevslogprice} shows, the residuals of the logprice model are closer to a normal distribution than those of the model with price as the dependent variable, because the line of points in the leftmost two q-q-plots is straighter for logprice. Also when predicting logprice instead of price, predicted values and real values seem to share a more similar distribution, as the middle two q-q-pots show. Also there seems to be a curvilinear relationship between predicted values and residuals when using price directly, which does not weem to be the case when using logprice. Finally also the adjusted $R^2$ value is higher for the logprice model ($R^2 = 0.830$) than for the price model ($R^2 = 0.802$), which suggests a better prediction. Therefore we settle at the logprice as our dependent variable.
+
+\subsection{best subset selection}
+
+With our 8 predictor variables, best subset selection is performed to determine which model can predict the logprice best.
+In total, 255 models ($= \sum_{i=1}^8{\choose{8}{i}} = 2^8-1$) have been fitted in iterations $i \in \{1,\dots,8\}$ to the data. Technically the number of predictors k used for models in iteration $i$ was not always the same, since categorical variables were split up into two dichotomous variables each (dummy coding), before performing model fitting. The models of each iteration were then sorted for their BIC and AIC values and the best value from each iteration $i$ can be seen in Table \ref{tab:subsetselection}
+
+\begin{table}[ht]
+  \centering
+  \captionabove{Best subset selection: lowest AIC and BIC in each iteration and the respective model predictors added on top of predictors in all table cells above}
+  \label{tab:subsetselection}
+  \begin{tabular}{c|cccc}
+    i & AIC              & BIC              & predictors       & models calculated \\
+    \hline
+    1 & 213.46           & 225.71           & model            & 8                 \\
+    2 & -215.15          & -198.82          & age              & 28                \\
+    3 & -414.14          & -393.73          & mileage          & 56                \\
+    4 & -564.22          & -535.65          & transmission     & 70                \\
+    5 & -651.78          & -619.12          & engineSize       & 56                \\
+    6 & -706.25          & \textbf{-665.42} & fuelType         & 28                \\
+    7 & \textbf{-706.41} & -661.51          & fuel consumption & 8                 \\
+    8 & -706.35          & -657.37          & tax              & 1                 \\
+  \end{tabular}
+\end{table}
+
+The AIC suggests that the model with 7 predictor variables (all but tax) is the best, while the BIC wants us to stop at iteration 6 and rises again for $i\ge7$. So the BIC suggests that in addition to tax, also fuel consumption should be excluded from the final model.
+We will decide for the model the BIC suggests, which will include the predictors: model, age, mileage, transmission, engineSize and fuelType.
+
+\section{Summary}
+
+Table \ref{tab:finalregression} shows the regression coefficients and their confidence intervals for the final model with 6 predictors (technically 9, if we count the dummy variables as single predictors). The model exhibits an adjusted $R^2$ value of 0.962 which is quite impressive and signifies a very good model fit. The good model fit can also be seen in the scatter plot in Figure~\ref{fig:pricevslogprice} exhibiting a strong linear relationship between predcited logprice and real logprice.
 
 
 
+\begin{figure}[htb]
+  \centering
 
-
-  \caption{Box plots for life expectancy and fertility rate in subregions}
-  \label{fig:boxplots}
+  \begin{subfigure}[b]{0.32\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{./images/qqplot_resz_price.png}
+    \label{fig:predandreallogprice}
+  \end{subfigure}
+  \caption{relationship between predicted logprice and real logprice}
+  \label{fig:modelfit}
 \end{figure}
 
 
+All regression coefficients differ from 0 significantly since their 95\%-confidence intervals ($[CI_l, CI_u]$) do not contain 0.
 
-\section{Summary}
+\begin{table}[ht]
+  \centering
+  \captionabove{The final regression model predicting logprice}
+  \label{tab:finalregression}
+  \begin{tabular}{c|cccc}
+                          & $\hat{\beta}_j$ & $SE(\hat{\beta}_j)$ & $CI_l$ & $CI_u$ \\
+    \hline
+    Intercept             & 2.6160          & 0.056               & 2.506  & 2.726  \\
+    age                   & -0.0884         & 0.004               & -0.096 & -0.081 \\
+    engineSize            & 0.2865          & 0.029               & 0.229  & 0.344  \\
+    fuelTypePetrol        & 0.1227          & 0.020               & 0.084  & 0.161  \\
+    fuelTypeHybrid        & 0.4623          & 0.037               & 0.389  & 0.535  \\
+    mileage               & -0.0058         & 0.000               & -0.006 & -0.005 \\
+    modelTRoc             & 0.1534          & 0.018               & 0.118  & 0.188  \\
+    modelUp               & -0.5180         & 0.024               & -0.566 & -0.470 \\
+    transmissionAutomatic & 0.1221          & 0.019               & 0.085  & 0.159  \\
+    transmissionSemiAuto  & 0.1180          & 0.018               & 0.083  & 0.153  \\
+  \end{tabular}
+\end{table}
+
+
+
+
 
 
 \newpage

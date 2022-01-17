@@ -691,7 +691,6 @@ INPUT .\images\qqplot_resz_price.png
 INPUT .\images\qqplot_resz_price.png
 INPUT .\images\qqplot_resz_price.png
 INPUT .\images\qqplot_resz_price.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT .\images\qqplot_yyhat_price.png
 INPUT .\images\qqplot_yyhat_price.png
 INPUT images\qqplot_yyhat_price.png
@@ -706,6 +705,31 @@ INPUT .\images\scalelocationplot_price.png
 INPUT .\images\scalelocationplot_price.png
 INPUT .\images\scalelocationplot_price.png
 INPUT .\images\scalelocationplot_price.png
+INPUT .\images\qqplot_resz_logprice.png
+INPUT .\images\qqplot_resz_logprice.png
+INPUT images\qqplot_resz_logprice.png
+INPUT .\images\qqplot_resz_logprice.png
+INPUT .\images\qqplot_resz_logprice.png
+INPUT .\images\qqplot_resz_logprice.png
+INPUT .\images\qqplot_resz_logprice.png
+INPUT .\images\qqplot_yyhat_logprice.png
+INPUT .\images\qqplot_yyhat_logprice.png
+INPUT images\qqplot_yyhat_logprice.png
+INPUT .\images\qqplot_yyhat_logprice.png
+INPUT .\images\qqplot_yyhat_logprice.png
+INPUT .\images\qqplot_yyhat_logprice.png
+INPUT .\images\qqplot_yyhat_logprice.png
+INPUT .\images\scalelocationplot_logprice.png
+INPUT .\images\scalelocationplot_logprice.png
+INPUT images\scalelocationplot_logprice.png
+INPUT .\images\scalelocationplot_logprice.png
+INPUT .\images\scalelocationplot_logprice.png
+INPUT .\images\scalelocationplot_logprice.png
+INPUT .\images\scalelocationplot_logprice.png
+INPUT .\images\qqplot_resz_price.png
+INPUT .\images\qqplot_resz_price.png
+INPUT images\qqplot_resz_price.png
+INPUT .\images\qqplot_resz_price.png
 INPUT .\main.bbl
 INPUT main.bbl
 INPUT .\main.bbl
@@ -735,8 +759,6 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr17.pfb

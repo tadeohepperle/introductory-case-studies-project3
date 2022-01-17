@@ -15,8 +15,9 @@
 \contentsline {section}{\numberline {4}Results}{11}{}%
 \contentsline {subsection}{\numberline {4.1}Descriptive Statistics}{11}{}%
 \contentsline {subsection}{\numberline {4.2}Determining the dependent variable}{12}{}%
-\contentsline {section}{\numberline {5}Summary}{13}{}%
-\contentsline {section}{Bibliography}{14}{}%
-\contentsline {section}{\nonumberline Appendix}{15}{}%
-\contentsline {subsection}{A \hspace *{0.15cm} Additional figures}{15}{}%
+\contentsline {subsection}{\numberline {4.3}best subset selection}{13}{}%
+\contentsline {section}{\numberline {5}Summary}{14}{}%
+\contentsline {section}{Bibliography}{15}{}%
+\contentsline {section}{\nonumberline Appendix}{16}{}%
+\contentsline {subsection}{A \hspace *{0.15cm} Additional figures}{16}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
