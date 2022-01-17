@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1642363270 "main.aux" "main.bbl" "main" 1642422071
+["bibtex main"] 1642363270 "main.aux" "main.bbl" "main" 1642424955
   "C:/Program Files/MiKTeX/bibtex/bst/natbib/plainnat.bst" 1284451856 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1642363277 3615 e2d7b62aaca99e429094b8f7aee021f8 "pdflatex"
+  "main.aux" 1642424955 3615 e2d7b62aaca99e429094b8f7aee021f8 "pdflatex"
   "references.bib" 1642361161 1703 ccf52220a0e52f6bead72ff9e58cd699 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1642363276 "t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex" "main.pdf" "main" 1642422071
+["pdflatex"] 1642424953 "t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex" "main.pdf" "main" 1642424955
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1254935040 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1254935040 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1254935040 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -131,13 +131,13 @@
   "C:/Program Files/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/tadeo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1635886483 9705527 7593b605117244c7e3d8262e79a129e8 ""
   "C:/Users/tadeo/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1635886449 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
-  "main.aux" 1642363277 3615 e2d7b62aaca99e429094b8f7aee021f8 "pdflatex"
+  "main.aux" 1642424955 3615 e2d7b62aaca99e429094b8f7aee021f8 "pdflatex"
   "main.bbl" 1642363270 1492 cb1497471e523da3b8aa41e02908bd48 "bibtex main"
-  "main.tex" 1642422070 19340 93cfd7c5a405670ba6856a3f42f1d597 ""
-  "main.toc" 1642363277 1473 76932331e3a3a824d078142cd35c0628 "pdflatex"
-  "t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex" 1642422070 19340 93cfd7c5a405670ba6856a3f42f1d597 ""
+  "main.tex" 1642424952 19339 565b0dcd4ec45f58287326676b048840 ""
+  "main.toc" 1642424955 1473 76932331e3a3a824d078142cd35c0628 "pdflatex"
+  "t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex" 1642424952 19339 565b0dcd4ec45f58287326676b048840 ""
   (generated)
-  "main.toc"
-  "main.pdf"
   "main.aux"
   "main.log"
+  "main.pdf"
+  "main.toc"
