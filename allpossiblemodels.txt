@@ -1,0 +1,280 @@
+All Models to consider for Subset selection:
+
+ number of predictors: 1
+
+logprice ~ age
+logprice ~ engineSize
+logprice ~ fuelType_Petrol + fuelType_Hybrid
+logprice ~ lp100
+logprice ~ mileage
+logprice ~ model_TRoc + model_Up
+logprice ~ tax
+logprice ~ transmission_Automatic + transmission_SemiAuto
+
+ number of predictors: 2
+
+logprice ~ age + engineSize
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid
+logprice ~ age + lp100
+logprice ~ age + mileage
+logprice ~ age + model_TRoc + model_Up
+logprice ~ age + tax
+logprice ~ age + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid
+logprice ~ engineSize + lp100
+logprice ~ engineSize + mileage
+logprice ~ engineSize + model_TRoc + model_Up
+logprice ~ engineSize + tax
+logprice ~ engineSize + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100
+logprice ~ fuelType_Petrol + fuelType_Hybrid + mileage
+logprice ~ fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up
+logprice ~ fuelType_Petrol + fuelType_Hybrid + tax
+logprice ~ fuelType_Petrol + fuelType_Hybrid + transmission_Automatic + transmission_SemiAuto
+logprice ~ lp100 + mileage
+logprice ~ lp100 + model_TRoc + model_Up
+logprice ~ lp100 + tax
+logprice ~ lp100 + transmission_Automatic + transmission_SemiAuto
+logprice ~ mileage + model_TRoc + model_Up
+logprice ~ mileage + tax
+logprice ~ mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ model_TRoc + model_Up + tax
+logprice ~ model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ tax + transmission_Automatic + transmission_SemiAuto
+
+ number of predictors: 3
+
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid
+logprice ~ age + engineSize + lp100
+logprice ~ age + engineSize + mileage
+logprice ~ age + engineSize + model_TRoc + model_Up
+logprice ~ age + engineSize + tax
+logprice ~ age + engineSize + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + mileage
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + tax
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + lp100 + mileage
+logprice ~ age + lp100 + model_TRoc + model_Up
+logprice ~ age + lp100 + tax
+logprice ~ age + lp100 + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + mileage + model_TRoc + model_Up
+logprice ~ age + mileage + tax
+logprice ~ age + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + model_TRoc + model_Up + tax
+logprice ~ age + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + mileage
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + tax
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + lp100 + mileage
+logprice ~ engineSize + lp100 + model_TRoc + model_Up
+logprice ~ engineSize + lp100 + tax
+logprice ~ engineSize + lp100 + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + mileage + model_TRoc + model_Up
+logprice ~ engineSize + mileage + tax
+logprice ~ engineSize + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + model_TRoc + model_Up + tax
+logprice ~ engineSize + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + mileage
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + tax
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up
+logprice ~ fuelType_Petrol + fuelType_Hybrid + mileage + tax
+logprice ~ fuelType_Petrol + fuelType_Hybrid + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + tax
+logprice ~ fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ lp100 + mileage + model_TRoc + model_Up
+logprice ~ lp100 + mileage + tax
+logprice ~ lp100 + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ lp100 + model_TRoc + model_Up + tax
+logprice ~ lp100 + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ lp100 + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ mileage + model_TRoc + model_Up + tax
+logprice ~ mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+
+ number of predictors: 4
+
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + mileage
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + tax
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + lp100 + mileage
+logprice ~ age + engineSize + lp100 + model_TRoc + model_Up
+logprice ~ age + engineSize + lp100 + tax
+logprice ~ age + engineSize + lp100 + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + mileage + model_TRoc + model_Up
+logprice ~ age + engineSize + mileage + tax
+logprice ~ age + engineSize + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + model_TRoc + model_Up + tax
+logprice ~ age + engineSize + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + tax
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + mileage + tax
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + tax
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + lp100 + mileage + model_TRoc + model_Up
+logprice ~ age + lp100 + mileage + tax
+logprice ~ age + lp100 + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + lp100 + model_TRoc + model_Up + tax
+logprice ~ age + lp100 + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + lp100 + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + mileage + model_TRoc + model_Up + tax
+logprice ~ age + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + tax
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + tax
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + tax
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + lp100 + mileage + model_TRoc + model_Up
+logprice ~ engineSize + lp100 + mileage + tax
+logprice ~ engineSize + lp100 + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + lp100 + model_TRoc + model_Up + tax
+logprice ~ engineSize + lp100 + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + lp100 + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + mileage + model_TRoc + model_Up + tax
+logprice ~ engineSize + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + tax
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + tax
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + tax
+logprice ~ fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ lp100 + mileage + model_TRoc + model_Up + tax
+logprice ~ lp100 + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ lp100 + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ lp100 + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+
+ number of predictors: 5
+
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + tax
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + tax
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + tax
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + lp100 + mileage + model_TRoc + model_Up
+logprice ~ age + engineSize + lp100 + mileage + tax
+logprice ~ age + engineSize + lp100 + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + lp100 + model_TRoc + model_Up + tax
+logprice ~ age + engineSize + lp100 + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + lp100 + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + mileage + model_TRoc + model_Up + tax
+logprice ~ age + engineSize + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + tax
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + tax
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + tax
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + lp100 + mileage + model_TRoc + model_Up + tax
+logprice ~ age + lp100 + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + lp100 + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + lp100 + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + tax
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + tax
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + tax
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + lp100 + mileage + model_TRoc + model_Up + tax
+logprice ~ engineSize + lp100 + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + lp100 + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + lp100 + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + tax
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ lp100 + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+
+ number of predictors: 6
+
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + tax
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + tax
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + tax
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + lp100 + mileage + model_TRoc + model_Up + tax
+logprice ~ age + engineSize + lp100 + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + lp100 + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + lp100 + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + tax
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + lp100 + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + tax
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + lp100 + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+
+ number of predictors: 7
+
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + tax
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + engineSize + lp100 + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ age + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+logprice ~ engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto
+
+ number of predictors: 8
+
+logprice ~ age + engineSize + fuelType_Petrol + fuelType_Hybrid + lp100 + mileage + model_TRoc + model_Up + tax + transmission_Automatic + transmission_SemiAuto

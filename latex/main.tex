@@ -205,11 +205,67 @@ This also allows for computing a 1-$\alpha$-confidence interval for each $\hat{\
 
 \section{Results}
 
-\subsection{Data Transformation}
+First some descriptive statistics about the dataset is provided, then we evaluete which outcome will be used in the regression (price vs logprice) and finally the best model is computed and evaluated.
 
 \subsection{Descriptive Statistics}
 
+Table \ref{tab:descriptives} provides a Five-number summary, mean and standard deviation for the relevant metrix variables used in the regression.
+
+\begin{table}[ht]
+  \centering
+  \captionabove{Relevant Metric variables in the dataset}
+  \label{tab:descriptives}
+  \begin{tabular}{c|cc|ccccc}
+    Rental Price & price & logprice & age   & mileage & fuel comsumption & tax    & engineSize \\
+    \hline
+    mean         & 14.68 & 2.54     & 3.79  & 25.11   & 5.11             & 96.80  & 1.47       \\
+    sd           & 7.75  & 0.55     & 1.96  & 25.04   & 1.19             & 61.65  & 0.42       \\
+    minimum      & 3.50  & 1.25     & 1.00  & 1.20    & 1.70             & 0.00   & 1.00       \\
+    Q1           & 7.78  & 2.05     & 2.00  & 6.05    & 4.40             & 20.00  & 1.00       \\
+    Q2 (median)  & 12.00 & 2.48     & 4.00  & 17.53   & 4.70             & 145.00 & 1.50       \\
+    Q3           & 20.99 & 3.04     & 5.00  & 33.37   & 5.60             & 145.00 & 2.00       \\
+    maximum      & 38.99 & 3.66     & 15.00 & 138.57  & 8.69             & 265.00 & 2.00
+  \end{tabular}
+\end{table}
+
+In addidtion to that we have 3 categorical variables with 3 levels each: model, fuel consumption and transmission. Of the 438 cars in total, there were 161 Passat, 127 T-Roc and 150 Up. The majority of cars had manual transmission (320), 66 cars had Semi-Auto and 52 automatic transmission. Most Cars used Petrol (256) or Diesel (169) with just 13 Hybrid cars that all where from the model Passat and had either automatic (4) or Semi-Auto transmission (9). The 150 Up models all had just manual transmission and ran on Petrol.
+
 \subsection{Determining the dependent variable}
+
+Two full linear regression models with all 8 predictor variables (age, mileage, fuel comsumption, tax, engineSize, model, fuelType and transmission) were fitted to predict price and logprice. For the categorical variables dummy coding was utilized, where Passat was the reference category for model, Diesel for fuelType and Manual for transmission. This will stay constant for all following regressions in this report.
+
+
+\begin{figure}[htb]
+  \centering
+
+  \begin{subfigure}[b]{0.33\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{./images/qqplot_resz_price.png}
+    \caption{residual z-scores and N(0,1)}
+    \label{fig:qqplotreszprice}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.33\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{./images/qqplot_yyhat_price.png}
+    \caption{price and predicted price}
+    \label{fig:qqplotyyhatprice}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.33\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{./images/scalelocationplot_price.png}
+    \caption{predicted price and standardized residuals}
+    \label{fig:scalelocationplotprice}
+  \end{subfigure}
+
+
+
+
+
+
+  \caption{Box plots for life expectancy and fertility rate in subregions}
+  \label{fig:boxplots}
+\end{figure}
+
 
 
 \section{Summary}
@@ -220,4 +276,9 @@ This also allows for computing a 1-$\alpha$-confidence interval for each $\hat{\
 \renewcommand\refname{Bibliography}
 \bibliographystyle{plainnat}
 \bibliography{references}
+\newpage
+\appendix
+\addsec{Appendix}
+\subsection*{A \ Additional figures}
+\addcontentsline{toc}{subsection}{A \hspace*{0.15cm} Additional figures}
 \end{document}
