@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1642614250 "main.aux" "main.bbl" "main" 1642621471
+["bibtex main"] 1642614250 "main.aux" "main.bbl" "main" 1642626318
   "C:/Program Files/MiKTeX/bibtex/bst/natbib/plainnat.bst" 1284451856 26816 ffe5423d2019860bad9f54bc402fac15 ""
   "main.aux" 1642621470 6633 cc9cc37be7c1e4cd74f85348ae27f4d1 "pdflatex"
   "references.bib" 1642613314 3446 daae140690ab038e1e1a3f51e09096be ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1642621468 "t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex" "main.pdf" "main" 1642621471
+  "main.bbl"
+["pdflatex"] 1642621468 "t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex" "main.pdf" "main" 1642626318
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1254935040 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1254935040 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1254935040 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -144,11 +144,11 @@
   "images/scalelocationplot_price.png" 1642436719 78120 5698984879d48ece35915e76a617b6d2 ""
   "main.aux" 1642621470 6633 cc9cc37be7c1e4cd74f85348ae27f4d1 "pdflatex"
   "main.bbl" 1642614251 3042 a42a410e02af449630d50bb6b602dc58 "bibtex main"
-  "main.tex" 1642621467 33092 1f13aa1cbe486063293140895a0b9b3b ""
+  "main.tex" 1642626317 33092 1f13aa1cbe486063293140895a0b9b3b ""
   "main.toc" 1642621470 1675 2af8a470ce4f45dc56a930d29063826b "pdflatex"
-  "t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex" 1642621467 33092 1f13aa1cbe486063293140895a0b9b3b ""
+  "t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex" 1642626317 33092 1f13aa1cbe486063293140895a0b9b3b ""
   (generated)
-  "main.log"
-  "main.toc"
-  "main.pdf"
   "main.aux"
+  "main.toc"
+  "main.log"
+  "main.pdf"
