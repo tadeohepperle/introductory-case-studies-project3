@@ -1,5 +1,6 @@
 \documentclass[12 pt]{scrartcl}
 \usepackage{setspace}
+\usepackage{url}
 \onehalfspacing
 \usepackage{amsmath,amssymb,amsfonts,amsthm,mathtools}
 \usepackage[english]{babel}
@@ -54,6 +55,11 @@
 
 \section{Introduction}
 
+Every year millions of cars are bought and sold around the globe. Despite the pandemic, there were 2.62 million cars newly registered in Germany in the year 2020, according to \citet{Statisti39}.
+Almost 10\% of Germany's GDP comes from automobile companies and their suppliers and about 930,000 people work in the car industry \citep{dw}.
+The massive size of this economic sector and its impact on our daily life makes it important to talk about the prices of cars. Purchased for 36,300 EUR on average \citep{Statista2}, cars can lose their value pretty quickly. Therefore many private Buyers rather buy used cars. According to \citet{Handelsblatt}, about 2 out of three newly registered cars are not new. Therefore in this report we will look at the prices of used cars sold on the british car internet platform "Exchange and Mart" \citep{Exchangeandmart}. Our dataset contains prices and predictors such as age, tax, mileage, transmission type, fuel type  fuel consumption and engine size for 438 VW cars of the 3 popular models Passat, Up and T-Roc. The goal is to be able to predict the price of a car as accurately as possible using the other variables provided. For this we are using multiple linear regression on the logarithmic price as the variable we want to predict. We found that the logarithmic price can be better modeled using the predictor variables. After conducting best subset selection we found that a regression model containing the six predictor variables car model, age, mileage, transmission type, engine size and fuel type was best at predicting the price of VW cars. More than 96 percent of the variation in the price of a car was rooted in these variables. Overall we found that greater mileage and age reduce a cars price while higher engine size increases it. Hybrid cars sell for much more than Petrol and Diesel cars, while automatic transmission gets you a higher price tag on your car as well.
+There were also huge differences between the different models.
+In section 2 the goal of the report is exyplained and we explain the VW cars data set in detail, while the statistic methods around multiple linear regression are explained in section 3. Section 4 holds the results and as a part of that the final model with all its coefficients, that are interpreted properly to explain them to the untrained eye. Finally section 5 summarizes the project and its implications for what to consider when looking for buying or selling a used car.
 
 \section{Problem statement}
 
@@ -143,7 +149,7 @@ It can also be calculated as the squared correlation between the real outcome $y
 \[ R^2 =  r_{y\hat{y}}^2\]
 Therefore $R^2$ can take values between 0 and 1. A greater $R^2$ means a more accurate prediction. What a good $R^2$ value is, highly depends on the application though, while in physics often values close to 1 can be found, in "biology, psychology, marketing,and other domains" values below $R^2 \approx 0.10$ are to be expected according to \citet[p.~70]{james2013introduction}.
 
-A linear regression should only be used if some assumptions are fulfilled. First, the number of observations should be greater than the number of predictors. The residuals should be independent of the predicted values. For this, a scatter plot for $\hat{y}$ vs. $\epsilon$ should not show a specific pattern. Their variance should not change as predicted values increase or descrease. This is also known as equal variance or homoscedasticity \citep{10Assump62}. Also the correlation between residuals and each predictor should be zero. This however is fulfilled when minimizing the RSS, because otherwise, the predictors "know" something about the residuals, which means they know more about y and are therefore not optimal. In addition to that the residuals should be approximately normally distributed which can be checked by looking at a QQ-plot between quantiles of standardized residuals and the standard-normal distribution \citep{10Assump62}.
+A linear regression should only be used if some assumptions are fulfilled. First, the number of observations should be greater than the number of predictors. The residuals should be independent of the predicted values. For this, a scatter plot for $\hat{y}$ vs. $\epsilon$ should not show a specific pattern. Their variance should not change as predicted values increase or descrease. This is also known as equal variance or homoscedasticity \citep{Prabhakaran}. Also the correlation between residuals and each predictor should be zero. This however is fulfilled when minimizing the RSS, because otherwise, the predictors "know" something about the residuals, which means they know more about y and are therefore not optimal. In addition to that the residuals should be approximately normally distributed which can be checked by looking at a QQ-plot between quantiles of standardized residuals and the standard-normal distribution \citep{Prabhakaran}.
 
 \subsection{dummy coding of categorical variables}
 The question arises how to use categorical variables as predictors in multiple linear regression. This can be resolved by a coding system. A coding system creates for every categorical variable a number of derived metric variables that can then be used in linear regression. One such coding system is dummy coding. citeXXXXX
@@ -301,51 +307,62 @@ In total, 255 models ($= \sum_{i=1}^8{\choose{8}{i}} = 2^8-1$) have been fitted 
 The AIC suggests that the model with 7 predictor variables (all but tax) is the best, while the BIC wants us to stop at iteration 6 and rises again for $i\ge7$. So the BIC suggests that in addition to tax, also fuel consumption should be excluded from the final model.
 We will decide for the model the BIC suggests, which will include the predictors: model, age, mileage, transmission, engineSize and fuelType.
 
-\section{Summary}
+\subsection{final model}
 
-Table \ref{tab:finalregression} shows the regression coefficients and their confidence intervals for the final model with 6 predictors (technically 9, if we count the dummy variables as single predictors). The model exhibits an adjusted $R^2$ value of 0.962 which is quite impressive and signifies a very good model fit. The good model fit can also be seen in the scatter plot in Figure~\ref{fig:pricevslogprice} exhibiting a strong linear relationship between predcited logprice and real logprice.
-
-
+Table \ref{tab:finalregression} shows the regression coefficients and their confidence intervals for the final model with 6 predictors (technically 9, if we count the dummy variables as single predictors). The model exhibits an adjusted $R^2$ value of 0.962 which is quite impressive and signifies a very good model fit. The predictor can explain 96.2\% of the variation in the logarithmic price. The good model fit can also be seen in the scatter plot in Figure~\ref{fig:finalmodel1} exhibiting a strong linear relationship between predcited logprice and real logprice. Figure~\ref{fig:finalmodel2} also shows that the residuals are spread out quite evenly which is good.
 
 \begin{figure}[htb]
   \centering
-
-  \begin{subfigure}[b]{0.32\textwidth}
+  \begin{subfigure}[b]{0.48\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{./images/qqplot_resz_price.png}
-    \label{fig:predandreallogprice}
+    \includegraphics[width=\textwidth]{./images/finalmodel1.png}
+    \caption{predicted logprice and real logprice}
+    \label{fig:finalmodel1}
   \end{subfigure}
-  \caption{relationship between predicted logprice and real logprice}
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{./images/finalmodel2.png}
+    \caption{predicted logprice and standardized residuals}
+    \label{fig:finalmodel2}
+  \end{subfigure}
+  \caption{plots for the final model with the lowest BIC}
   \label{fig:modelfit}
 \end{figure}
 
 
 All regression coefficients differ from 0 significantly since their 95\%-confidence intervals ($[CI_l, CI_u]$) do not contain 0.
+We will now interpret the coefficients and their meaning for the real price, not the logprice.
+The intercept of $\hat{\beta}_0 = 2.6160 = log(13.681)$ tells us that the model assumes, for a Passat with Manual Transmission and Diesel an average price of 13,681 GPB, all other predictors held 0 (which is obviously not possible, only electric cars have an engineSize of 0 liters).
 
 \begin{table}[ht]
   \centering
   \captionabove{The final regression model predicting logprice}
   \label{tab:finalregression}
   \begin{tabular}{c|cccc}
-                          & $\hat{\beta}_j$ & $SE(\hat{\beta}_j)$ & $CI_l$ & $CI_u$ \\
+                            & $\hat{\beta}_j$ & $SE(\hat{\beta}_j)$ & $CI_l$ & $CI_u$ \\
     \hline
-    Intercept             & 2.6160          & 0.056               & 2.506  & 2.726  \\
-    age                   & -0.0884         & 0.004               & -0.096 & -0.081 \\
-    engineSize            & 0.2865          & 0.029               & 0.229  & 0.344  \\
-    fuelTypePetrol        & 0.1227          & 0.020               & 0.084  & 0.161  \\
-    fuelTypeHybrid        & 0.4623          & 0.037               & 0.389  & 0.535  \\
-    mileage               & -0.0058         & 0.000               & -0.006 & -0.005 \\
-    modelTRoc             & 0.1534          & 0.018               & 0.118  & 0.188  \\
-    modelUp               & -0.5180         & 0.024               & -0.566 & -0.470 \\
-    transmissionAutomatic & 0.1221          & 0.019               & 0.085  & 0.159  \\
-    transmissionSemiAuto  & 0.1180          & 0.018               & 0.083  & 0.153  \\
+    intercept               & 2.6160          & 0.056               & 2.506  & 2.726  \\
+    model: TRoc             & 0.1534          & 0.018               & 0.118  & 0.188  \\
+    model: Up               & -0.5180         & 0.024               & -0.566 & -0.470 \\
+    age                     & -0.0884         & 0.004               & -0.096 & -0.081 \\
+    mileage                 & -0.0058         & 0.000               & -0.006 & -0.005 \\
+    transmission: Automatic & 0.1221          & 0.019               & 0.085  & 0.159  \\
+    transmission: Semi-Auto & 0.1180          & 0.018               & 0.083  & 0.153  \\
+    engine size             & 0.2865          & 0.029               & 0.229  & 0.344  \\
+    fuelType: Petrol        & 0.1227          & 0.020               & 0.084  & 0.161  \\
+    fuelType: Hybrid        & 0.4623          & 0.037               & 0.389  & 0.535  \\
   \end{tabular}
 \end{table}
 
+A T-Roc seems to cost about 15.34\% more on average than Passat, while the model Up sells for less then half of a Passats price on average ($\hat{\beta} = -51.80\%$). An additional year of age seems to lower a cars price by almost 9\% ($\hat{\beta} = -8.84\%$). It is the second strongest predictor of a cars value (after model). Additional mileage also reduces a cars price: each additional 1000 miles on a car lower its value by approximately 0.58\%. Cars with
+automatic or semi-automatic transmission sell for 12.21\% or 11.80\% more than cars with manual transmission according to the model. Mind that this holds for all other variables held constant, so the huge amount of cheap Up models that all just come with manual transmission cannot be the reason for this.
+Engine size also matters: each additional liter of engine capacity increases a cars price by 28.65\%. The least important predictor is the fuel type. Not that it would not matter by itself, but the other predictors already explain a lot of variance so it was added last to the model in best subset selection.
+Diesel cars are the cheapest. Compared to Diesel, the model predicts that petrol cars cost 12.27\% more and hybrid cars even 46.23\% more.
+All percentages provided have to be viewed in the light of their respective confidence intervals depicted in Table \ref{tab:finalregression}.
 
+\subsection{Summary}
 
-
-
+The question of this report was to determine
 
 \newpage
 \addcontentsline{toc}{section}{Bibliography}

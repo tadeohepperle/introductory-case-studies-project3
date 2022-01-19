@@ -126,6 +126,17 @@ INPUT C:\Program Files\MiKTeX\tex\latex\setspace\setspace.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\setspace\setspace.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\setspace\setspace.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
@@ -726,10 +737,21 @@ INPUT .\images\scalelocationplot_logprice.png
 INPUT .\images\scalelocationplot_logprice.png
 INPUT .\images\scalelocationplot_logprice.png
 INPUT .\images\scalelocationplot_logprice.png
-INPUT .\images\qqplot_resz_price.png
-INPUT .\images\qqplot_resz_price.png
-INPUT images\qqplot_resz_price.png
-INPUT .\images\qqplot_resz_price.png
+INPUT .\images\finalmodel1.png
+INPUT .\images\finalmodel1.png
+INPUT images\finalmodel1.png
+INPUT .\images\finalmodel1.png
+INPUT .\images\finalmodel1.png
+INPUT .\images\finalmodel1.png
+INPUT .\images\finalmodel1.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
+INPUT .\images\finalmodel2.png
+INPUT .\images\finalmodel2.png
+INPUT images\finalmodel2.png
+INPUT .\images\finalmodel2.png
+INPUT .\images\finalmodel2.png
+INPUT .\images\finalmodel2.png
+INPUT .\images\finalmodel2.png
 INPUT .\main.bbl
 INPUT main.bbl
 INPUT .\main.bbl
@@ -759,6 +781,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr17.pfb

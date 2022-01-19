@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.2)  17 JAN 2022 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.2)  19 JAN 2022 20:44
 entering extended mode
 **"t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex"
 (t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex
@@ -130,6 +130,9 @@ Class scrartcl Info: Redefining `\numberline' on input line 6251.
 \bibindent=\dimen138
 ) (C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip63
@@ -164,7 +167,7 @@ LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count196
 \c@MaxMatrixCols=\count197
-\dotsspace@=\muskip16
+\dotsspace@=\muskip17
 \c@parentequation=\count198
 \dspbrk@lvl=\count199
 \tag@help=\toks18
@@ -395,29 +398,29 @@ Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \c@nlinenum=\count283
 \TeXr@lab=\toks34
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 25.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 26.
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-Package scrbase Info: activating english \contentsname on input line 25.
-Package scrbase Info: activating english \listfigurename on input line 25.
-Package scrbase Info: activating english \listtablename on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+Package scrbase Info: activating english \contentsname on input line 26.
+Package scrbase Info: activating english \listfigurename on input line 26.
+Package scrbase Info: activating english \listtablename on input line 26.
  (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
@@ -457,7 +460,7 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {C:/Users/tadeo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 51.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 52.
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (main.toc
@@ -494,98 +497,138 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 67.
- (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
+ [2] [3
+
+]
+Overfull \hbox (90.89651pt too wide) in paragraph at lines 70--72
+\T1/lmr/m/n/12 in-ter-net plat-form "Ex-change and Mart" (Ex-change & Mart, 2022) (https://www.exchangeandmart.co.uk/).
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 73.
+(C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (C:\Program Files\MiKTeX\tex/latex/ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [3
-
-] [4] [5] [6] [7] [8]
+) [4] [5] [6] [7] [8] [9]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 174.
+(amsmath)                 on input line 180.
 
-[9] [10]
-Overfull \hbox (22.45093pt too wide) in paragraph at lines 218--229
+[10] [11]
+Overfull \hbox (22.45093pt too wide) in paragraph at lines 224--235
  [][] 
  []
 
-[11]
-<./images/qqplot_resz_price.png, id=51, 252.945pt x 252.945pt>
+[12]
+<./images/qqplot_resz_price.png, id=54, 252.945pt x 252.945pt>
 File: ./images/qqplot_resz_price.png Graphic file (type png)
 <use ./images/qqplot_resz_price.png>
-Package pdftex.def Info: ./images/qqplot_resz_price.png  used on input line 243.
+Package pdftex.def Info: ./images/qqplot_resz_price.png  used on input line 249.
 (pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/qqplot_yyhat_price.png, id=53, 252.945pt x 252.945pt>
+<./images/qqplot_yyhat_price.png, id=56, 252.945pt x 252.945pt>
 File: ./images/qqplot_yyhat_price.png Graphic file (type png)
 <use ./images/qqplot_yyhat_price.png>
-Package pdftex.def Info: ./images/qqplot_yyhat_price.png  used on input line 248.
+Package pdftex.def Info: ./images/qqplot_yyhat_price.png  used on input line 254.
 (pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/scalelocationplot_price.png, id=54, 252.945pt x 252.945pt>
+<./images/scalelocationplot_price.png, id=57, 252.945pt x 252.945pt>
 File: ./images/scalelocationplot_price.png Graphic file (type png)
 <use ./images/scalelocationplot_price.png>
-Package pdftex.def Info: ./images/scalelocationplot_price.png  used on input line 253.
+Package pdftex.def Info: ./images/scalelocationplot_price.png  used on input line 259.
 (pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/qqplot_resz_logprice.png, id=55, 252.945pt x 252.945pt>
+<./images/qqplot_resz_logprice.png, id=58, 252.945pt x 252.945pt>
 File: ./images/qqplot_resz_logprice.png Graphic file (type png)
 <use ./images/qqplot_resz_logprice.png>
-Package pdftex.def Info: ./images/qqplot_resz_logprice.png  used on input line 259.
+Package pdftex.def Info: ./images/qqplot_resz_logprice.png  used on input line 265.
 (pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/qqplot_yyhat_logprice.png, id=56, 252.945pt x 252.945pt>
+<./images/qqplot_yyhat_logprice.png, id=59, 252.945pt x 252.945pt>
 File: ./images/qqplot_yyhat_logprice.png Graphic file (type png)
 <use ./images/qqplot_yyhat_logprice.png>
-Package pdftex.def Info: ./images/qqplot_yyhat_logprice.png  used on input line 264.
+Package pdftex.def Info: ./images/qqplot_yyhat_logprice.png  used on input line 270.
 (pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/scalelocationplot_logprice.png, id=57, 252.945pt x 252.945pt>
+<./images/scalelocationplot_logprice.png, id=60, 252.945pt x 252.945pt>
 File: ./images/scalelocationplot_logprice.png Graphic file (type png)
 <use ./images/scalelocationplot_logprice.png>
-Package pdftex.def Info: ./images/scalelocationplot_logprice.png  used on input line 269.
+Package pdftex.def Info: ./images/scalelocationplot_logprice.png  used on input line 275.
 (pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
- [12 <./images/qqplot_resz_price.png> <./images/qqplot_yyhat_price.png> <./images/scalelocationplot_price.png> <./images/qqplot_resz_logprice.png> <./images/qqplot_yyhat_logprice.png> <./images/scalelocationplot_logprice.png>] [13]
-File: ./images/qqplot_resz_price.png Graphic file (type png)
-<use ./images/qqplot_resz_price.png>
-Package pdftex.def Info: ./images/qqplot_resz_price.png  used on input line 315.
-(pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
- [14] (main.bbl
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 10.
+ [13 <./images/qqplot_resz_price.png> <./images/qqplot_yyhat_price.png> <./images/scalelocationplot_price.png> <./images/qqplot_resz_logprice.png> <./images/qqplot_yyhat_logprice.png> <./images/scalelocationplot_logprice.png>] [14]
+<./images/finalmodel1.png, id=74, 361.35pt x 289.08pt>
+File: ./images/finalmodel1.png Graphic file (type png)
+<use ./images/finalmodel1.png>
+Package pdftex.def Info: ./images/finalmodel1.png  used on input line 318.
+(pdftex.def)             Requested size: 215.10094pt x 172.08192pt.
+<./images/finalmodel2.png, id=75, 361.35pt x 289.08pt>
+File: ./images/finalmodel2.png Graphic file (type png)
+<use ./images/finalmodel2.png>
+Package pdftex.def Info: ./images/finalmodel2.png  used on input line 324.
+(pdftex.def)             Requested size: 215.10094pt x 172.08192pt.
+ [15 <./images/finalmodel1.png> <./images/finalmodel2.png>] [16] (main.bbl
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 14.
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
-[]\T1/lmr/m/n/12 Exchange & mart: New & used cars for sale near you.
+Underfull \hbox (badness 10000) in paragraph at lines 9--17
+\T1/lmtt/m/n/12 / / www . dw . com / en / what-[]germanys-[]car-[]summit-[]hopes-[]to-[]achieve / a-[]54841263# :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--18
-[]\T1/lmr/m/n/12 Understanding di-ag-nos-tic plots for lin-ear re-gres-sion anal-y-sis | uni-
+Underfull \hbox (badness 10000) in paragraph at lines 9--17
+\T1/lmtt/m/n/12 ~ : text = The % 20mixture % 20is % 20especially % 20toxic ,[] is % 20made % 20by % 20the %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--18
-\T1/lmr/m/n/12 ver-sity of vir-ginia li-brary re-search data ser-vices + sci-ences.
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
+[]\T1/lmr/m/n/12 Handelsblatt.  Im-mer weniger neuwa-gen auf pri-vatkun-den zuge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--18
-\T1/lmtt/m/n/12 https://data.library.virginia.edu/diagnostic-plots/\T1/lmr/m/n/12 .  (Ac-cessed on
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
+\T1/lmr/m/n/12 lassen.  $\T1/lmtt/m/n/12 https : / / www . handelsblatt . com / mobilitaet / motor /
  []
 
-) [15] [16] (main.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
+\T1/lmtt/m/n/12 studie-[]immer-[]weniger-[]privatleute-[]kaufen-[]neuwagen / 20073502 . html ? ticket =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+[]\T1/lmr/m/n/12 Statista.  Durch-schnit-tliche neuwa-gen-preise in deutsch-land | statista.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+\T1/lmtt/m/n/12 https : / / de . statista . com / statistik / daten / studie / 36408 / umfrage /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+\T1/lmtt/m/n/12 durchschnittliche-[]neuwagenpreise-[]in-[]deutschland / # : ~ : text =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+\T1/lmtt/m/n/12 Neuwagenpreise % 20in % 20Deutschland % 20bis % 202020 & text = Erneut % 20ist %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+\T1/lmtt/m/n/12 20der % 20durchschnittliche % 20Preis ,[] eines % 20Neuwagens % 20rund % 2036 . 300 %
+ []
+
+) [17] [18] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 10943 strings out of 478927
- 195484 string characters out of 2862392
- 633941 words of memory out of 3000000
- 28604 multiletter control sequences out of 15000+600000
- 465184 words of font info for 63 fonts, out of 8000000 for 9000
+ 11050 strings out of 478927
+ 197077 string characters out of 2862392
+ 635150 words of memory out of 3000000
+ 28704 multiletter control sequences out of 15000+600000
+ 468174 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,18n,108p,10734b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (16 pages, 597627 bytes).
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (18 pages, 758887 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 169 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
