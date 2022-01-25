@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {2.1}Description of the dataset}{4}{}%
 \contentsline {subsection}{\numberline {2.2}Objectives of the report}{5}{}%
 \contentsline {section}{\numberline {3}Statistical Methods}{5}{}%
-\contentsline {subsection}{\numberline {3.1}classical linear regression}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Classical linear regression}{5}{}%
 \contentsline {subsection}{\numberline {3.2}dummy coding of categorical variables}{8}{}%
 \contentsline {subsection}{\numberline {3.3}model diagnostics}{9}{}%
 \contentsline {subsection}{\numberline {3.4}best subset selection}{9}{}%
@@ -18,7 +18,5 @@
 \contentsline {subsection}{\numberline {4.3}best subset selection}{14}{}%
 \contentsline {subsection}{\numberline {4.4}final model}{14}{}%
 \contentsline {subsection}{\numberline {4.5}Summary}{16}{}%
-\contentsline {section}{Bibliography}{17}{}%
-\contentsline {section}{\nonumberline Appendix}{18}{}%
-\contentsline {subsection}{A \hspace *{0.15cm} Additional figures}{18}{}%
+\contentsline {section}{Bibliography}{18}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

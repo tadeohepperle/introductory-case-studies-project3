@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.2)  19 JAN 2022 20:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.2)  25 JAN 2022 23:02
 entering extended mode
 **"t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex"
 (t:/Daten/Studium Msc Data Science/Semester I/Introductory Case Studies/introductory-case-studies-project3/latex/main.tex
@@ -500,69 +500,69 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [2] [3
 
 ]
-Overfull \hbox (90.89651pt too wide) in paragraph at lines 70--72
+Overfull \hbox (90.89651pt too wide) in paragraph at lines 70--73
 \T1/lmr/m/n/12 in-ter-net plat-form "Ex-change and Mart" (Ex-change & Mart, 2022) (https://www.exchangeandmart.co.uk/).
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 73.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 74.
 (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (C:\Program Files\MiKTeX\tex/latex/ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [4] [5] [6] [7] [8] [9]
+) [4] [5] [6] [7] [8]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 180.
+(amsmath)                 on input line 181.
 
-[10] [11]
-Overfull \hbox (22.45093pt too wide) in paragraph at lines 224--235
+[9] [10] [11]
+Overfull \hbox (22.45093pt too wide) in paragraph at lines 225--236
  [][] 
  []
 
 [12]
-<./images/qqplot_resz_price.png, id=54, 252.945pt x 252.945pt>
+<./images/qqplot_resz_price.png, id=54, 216.81pt x 216.81pt>
 File: ./images/qqplot_resz_price.png Graphic file (type png)
 <use ./images/qqplot_resz_price.png>
-Package pdftex.def Info: ./images/qqplot_resz_price.png  used on input line 249.
-(pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/qqplot_yyhat_price.png, id=56, 252.945pt x 252.945pt>
+Package pdftex.def Info: ./images/qqplot_resz_price.png  used on input line 250.
+(pdftex.def)             Requested size: 143.40518pt x 143.41263pt.
+<./images/qqplot_yyhat_price.png, id=56, 216.81pt x 216.81pt>
 File: ./images/qqplot_yyhat_price.png Graphic file (type png)
 <use ./images/qqplot_yyhat_price.png>
-Package pdftex.def Info: ./images/qqplot_yyhat_price.png  used on input line 254.
-(pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/scalelocationplot_price.png, id=57, 252.945pt x 252.945pt>
+Package pdftex.def Info: ./images/qqplot_yyhat_price.png  used on input line 255.
+(pdftex.def)             Requested size: 143.40518pt x 143.41263pt.
+<./images/scalelocationplot_price.png, id=57, 216.81pt x 216.81pt>
 File: ./images/scalelocationplot_price.png Graphic file (type png)
 <use ./images/scalelocationplot_price.png>
-Package pdftex.def Info: ./images/scalelocationplot_price.png  used on input line 259.
-(pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/qqplot_resz_logprice.png, id=58, 252.945pt x 252.945pt>
+Package pdftex.def Info: ./images/scalelocationplot_price.png  used on input line 260.
+(pdftex.def)             Requested size: 143.40518pt x 143.41263pt.
+<./images/qqplot_resz_logprice.png, id=58, 216.81pt x 216.81pt>
 File: ./images/qqplot_resz_logprice.png Graphic file (type png)
 <use ./images/qqplot_resz_logprice.png>
-Package pdftex.def Info: ./images/qqplot_resz_logprice.png  used on input line 265.
-(pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/qqplot_yyhat_logprice.png, id=59, 252.945pt x 252.945pt>
+Package pdftex.def Info: ./images/qqplot_resz_logprice.png  used on input line 266.
+(pdftex.def)             Requested size: 143.40518pt x 143.41263pt.
+<./images/qqplot_yyhat_logprice.png, id=59, 216.81pt x 216.81pt>
 File: ./images/qqplot_yyhat_logprice.png Graphic file (type png)
 <use ./images/qqplot_yyhat_logprice.png>
-Package pdftex.def Info: ./images/qqplot_yyhat_logprice.png  used on input line 270.
-(pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
-<./images/scalelocationplot_logprice.png, id=60, 252.945pt x 252.945pt>
+Package pdftex.def Info: ./images/qqplot_yyhat_logprice.png  used on input line 271.
+(pdftex.def)             Requested size: 143.40518pt x 143.41263pt.
+<./images/scalelocationplot_logprice.png, id=60, 216.81pt x 216.81pt>
 File: ./images/scalelocationplot_logprice.png Graphic file (type png)
 <use ./images/scalelocationplot_logprice.png>
-Package pdftex.def Info: ./images/scalelocationplot_logprice.png  used on input line 275.
-(pdftex.def)             Requested size: 143.40518pt x 143.40822pt.
+Package pdftex.def Info: ./images/scalelocationplot_logprice.png  used on input line 276.
+(pdftex.def)             Requested size: 143.40518pt x 143.41263pt.
  [13 <./images/qqplot_resz_price.png> <./images/qqplot_yyhat_price.png> <./images/scalelocationplot_price.png> <./images/qqplot_resz_logprice.png> <./images/qqplot_yyhat_logprice.png> <./images/scalelocationplot_logprice.png>] [14]
 <./images/finalmodel1.png, id=74, 361.35pt x 289.08pt>
 File: ./images/finalmodel1.png Graphic file (type png)
 <use ./images/finalmodel1.png>
-Package pdftex.def Info: ./images/finalmodel1.png  used on input line 318.
+Package pdftex.def Info: ./images/finalmodel1.png  used on input line 319.
 (pdftex.def)             Requested size: 215.10094pt x 172.08192pt.
 <./images/finalmodel2.png, id=75, 361.35pt x 289.08pt>
 File: ./images/finalmodel2.png Graphic file (type png)
 <use ./images/finalmodel2.png>
-Package pdftex.def Info: ./images/finalmodel2.png  used on input line 324.
+Package pdftex.def Info: ./images/finalmodel2.png  used on input line 325.
 (pdftex.def)             Requested size: 215.10094pt x 172.08192pt.
- [15 <./images/finalmodel1.png> <./images/finalmodel2.png>] [16] (main.bbl
+ [15 <./images/finalmodel1.png> <./images/finalmodel2.png>] [16] [17] (main.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 14.
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -616,17 +616,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--66
 \T1/lmtt/m/n/12 20der % 20durchschnittliche % 20Preis ,[] eines % 20Neuwagens % 20rund % 2036 . 300 %
  []
 
-) [17] [18] (main.aux) ) 
+) [18] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 11050 strings out of 478927
- 197077 string characters out of 2862392
+ 11047 strings out of 478927
+ 196981 string characters out of 2862392
  635150 words of memory out of 3000000
- 28704 multiletter control sequences out of 15000+600000
+ 28701 multiletter control sequences out of 15000+600000
  468174 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,18n,108p,10734b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (18 pages, 758887 bytes).
+Output written on main.pdf (18 pages, 724576 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
